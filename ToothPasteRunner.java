@@ -35,6 +35,13 @@ class ToothPasteRunner {
 		else{
 			System.out.println("colour is not grey");
 		}
+		int size=ToothPaste.getSize();
+		if(size>50){
+			System.out.println("toothpaste is more than 100grams");
+		}
+		else{
+			System.out.println("toothpaste is not more than 100grams in size");
+		}
 		
 		
 	
