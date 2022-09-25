@@ -2,8 +2,8 @@ class CoffeeRunner {
 	public static void main(String[] info) {
 		System.out.println("main started :");
 		
-		if(info.length){
-			System.out.println("can execute with info passed");
+		
+			System.out.println("main started");
 			String hotelName=info[0];
 			String price=info[1];
 			String sugar=info[2];
@@ -28,10 +28,8 @@ class CoffeeRunner {
 				System.out.println("coffee is wakk");
 			}
 		}
-		else{
-             System.out.println("cannot execute,need 3 info hotelname,price and sugar");
-		}		
-		System.out.println("main is terminated");
 		
-	}
+		
+		
+	
 }
